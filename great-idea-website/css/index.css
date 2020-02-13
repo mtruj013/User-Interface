@@ -64,6 +64,10 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+nav{
+	text-align: center;
+	padding-bottom: 10px;
+}
 
 a {
 	color:#CCD2C1;
@@ -87,18 +91,39 @@ a {
 	width: 100%;
 }
 
+.title-container{
+	text-align: center;
+	padding-top: 70px;
+}
+
 .main-title{
 	display: inline-block;
 	vertical-align: left;
+	padding-right: 50px;
 }
 
 .title-img{
 	display: inline-block;
-	vertical-align: right;
+	vertical-align: middle;
+	margin: 70px;
 }
 
 h1{
 	font-size: 60px;
+}
+
+.info-container1{
+	text-align: center;
+	padding: 20px;
+}
+
+.middle-image{
+	text-align: center;
+}
+
+.info-container2{
+	text-align: center;
+	padding: 20px;
 }
 
 #features{
@@ -126,4 +151,8 @@ h1{
 #vision{
 	display: inline-block;
 	width: 30%;
+}
+
+p #contact{
+	text-align: center;
 }
